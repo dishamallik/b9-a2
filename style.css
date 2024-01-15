@@ -143,11 +143,141 @@ width: 300px;
 }
 
 
+/* choose destination */
+.destination{
+    color: #131318;
+
+font-family: Mulish;
+font-size: 40px;
+font-weight: 800;
+
+}
+
+
+.destination-description{
+    color: rgba(19, 19, 24, 0.70);
+
+font-family: Mulish;
+font-size: 16px;
+font-weight: 400;
+
+}
+.destination-text{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+
+.img{
+    height: 100%;
+    width: 100%;
+}
+.row{
+    display: flex;
+    margin: 0 80px;
+    gap: 15px;
+    
+}
+
+.row2{
+    display: flex;
+    margin: 0 80px;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.row3{
+    display: flex;
+    margin: 0 80px;
+    gap: 15px;
+    margin-top: 20px; 
+}
+
+
+
+/* why choose us */
+
+
+.us-box1{
+    border-radius: 16px;
+border: 1px solid rgba(41, 206, 246, 0.20);
+background: rgba(41, 206, 246, 0.05);
+padding: 30px;
+width: 520px;
+}
+
+.us-box2{
+    border-radius: 16px;
+border: 1px solid rgba(251, 181, 99, 0.20);
+background: rgba(251, 181, 99, 0.05);
+padding: 30px;
+width: 520px;
+}
+
+.us-box3{
+    border-radius: 16px;
+border: 1px solid rgba(233, 68, 68, 0.20);
+background: rgba(233, 68, 68, 0.05);
+align-items: center;
+width: 520px;
+padding: 30px;
+}
+
+.BOX{
+    display: flex;
+    justify-content: space-around;
+}
+.BOX2{
+    padding-left: 380px;
+    margin-top: 50px;
+}
+
+
+.choose-text{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
 
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* responsive */
+/* mobile device */
 
 @media screen  and (max-width: 600px) {
     .overlay{
@@ -186,12 +316,50 @@ border: 0;
 }
 
 
-
-
-
-
-
+.row , .row2 , .row3{
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    margin: 0px;
 
 
 
 }
+
+.img3{
+ padding-left: 130px;
+}
+.img4{
+    padding-left: 70px;
+}
+.img5{
+    padding-left: 170px;
+    transform: scaleX(1.5)
+    
+}
+.img6{
+    padding-left: 60px ;
+}
+
+.img7{
+    transform: scaleX(0.9);
+    
+
+margin: 0 10px;
+}
+
+
+.BOX{
+    flex-direction: column;
+}
+.BOX2{
+    margin: 10px  -375px;
+   
+}
+
+}
+
+
+
+
+
